@@ -1,3 +1,12 @@
+/*
+ *  author 		: Mathew Petermeyer (Drakos)
+ *  description : Following tutorials to create basic 3d engine...
+ *  date		: 7/29/2013
+ * 
+ * 
+ * 
+ */
+
 package graphics;
 
 public class Render {
