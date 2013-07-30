@@ -1,3 +1,5 @@
+package maze;
+
 /*
  *  author 		: Mathew Petermeyer (Drakos)
  *  description : Following tutorials to create basic 3d engine...
@@ -7,8 +9,6 @@
  * 
  */
 
-
-
 import java.awt.Canvas;
 import java.awt.Graphics;
 import java.awt.image.BufferStrategy;
@@ -17,8 +17,8 @@ import java.awt.image.DataBufferInt;
 
 import javax.swing.JFrame;
 
-import graphics.Render;
-import graphics.Screen;
+import maze.graphics.Render;
+import maze.graphics.Screen;
 
 public class Display extends Canvas implements Runnable {
 
@@ -27,7 +27,6 @@ public class Display extends Canvas implements Runnable {
 	public static final String TITLE = "Maze Pre-Alpha 0.01";
 
 	private Thread thread;
-	private Render render;
 	private Screen screen;
 	private BufferedImage img;
 	private boolean running = false;

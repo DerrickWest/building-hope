@@ -1,3 +1,4 @@
+
 /*
  *  author 		: Mathew Petermeyer (Drakos)
  *  description : Following tutorials to create basic 3d engine...
@@ -7,8 +8,7 @@
  * 
  */
 
-
-package graphics;
+package maze.graphics;
 
 import java.util.Random;
 
